@@ -17,7 +17,7 @@ LLMs are great at giving you broken code, and it can take repeat iteration to ge
 
 So why do this manually when AI can handle not just the generation but also the iteration and fixing?
 
-### Why a "micro" agent?
+### Why a "micro" ai?
 
 AI agents are cool, but general-purpose coding agents rarely work as hoped or promised. They tend to go haywire with compounding errors. Think of your Roomba getting stuck under a table, x1000.
 
@@ -27,8 +27,6 @@ The idea of a micro ai is to
 2. Iterate on code until all test cases pass
 
 Read more on [why Micro AI exists](https://www.khulnasoft.com/blog/micro-ai).
-
-<img width="1270" alt="Micro AI Diagram" src="https://github.com/khulnasoft/micro-ai/assets/844291/406496dd-3be8-491b-a5f0-2960dd924013">
 
 ### What this project is not
 
@@ -81,8 +79,6 @@ micro-ai config set OPENAI_API_ENDPOINT=https://api.groq.com/openai/v1
 
 ### Unit test matching
 
-![Demo](https://cdn.khulnasoft.com/api/v1/file/assets%2FYJIGb4i01jvw0SRdL5Bt%2F4e8b02abb3e044118f070d9a7253003e)
-
 To run the Micro AI on a file in unit test matching mode, you need to provide a test script that will run after each code generation attempt. For instance:
 
 ```bash
@@ -110,7 +106,6 @@ micro-ai ./file-to-edit.ts -t "npm test" -f ./file-to-edit.spec.ts -p ./path-to-
 
 ### Visual matching (experimental)
 
-![Visual Demo](https://cdn.khulnasoft.com/api/v1/file/assets%2FYJIGb4i01jvw0SRdL5Bt%2Fe90f6d4158b44a8fb9adeee3be3dbe82)
 
 > [!WARNING]
 > This feature is experimental and under active development. Use with caution.
@@ -145,7 +140,6 @@ micro-ai config set ANTHROPIC_KEY=<your token>
 
 Visual matching uses a multi-agent approach where Anthropic Claude Opus will do the visual matching and feedback, and then OpenAI will generate the code to match the design and address the feedback.
 
-![Visual of the multi agent approach](https://cdn.khulnasoft.com/api/v1/image/assets%2FYJIGb4i01jvw0SRdL5Bt%2F427929ba84b34ac6a0f1fda104e60ecd)
 
 ### Integration with Figma
 
@@ -155,7 +149,6 @@ Visual Copilot connects directly to Figma to assist with pixel perfect conversio
 
 Then, Micro AI can take the output of Visual Copilot and make final adjustments to the code to ensure it passes TSC, lint, tests, and fully matches your design including final tweaks.
 
-![Visual Copilot demo](https://cdn.khulnasoft.com/api/v1/file/assets%2FYJIGb4i01jvw0SRdL5Bt%2Fa503ad8367d746f3879db1a155728cb2)
 
 ## Configuration
 
