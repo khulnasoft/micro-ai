@@ -1,12 +1,3 @@
-<p>
-   An AI agent that writes and fixes code for you.
-</p>
-
-<p>
-   <a href="https://www.npmjs.com/package/@khulnasoft.com/micro-ai"><img src="https://img.shields.io/npm/v/@khulnasoft.com/micro-ai" alt="Current version"></a>
-</p>
-<br>
-
 # Micro AI
 
 Just run `micro-ai`, give it a prompt, and it'll generate a test and then iterate on code until all test cases pass.
