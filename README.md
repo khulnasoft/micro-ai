@@ -229,7 +229,7 @@ If you are looking for a good first issue, check out the [good first issue](http
 
 ## Feedback
 
-If you have any feedback, please open an issue or @ me at [@steve8708](https://twitter.com/steve8708) on Twitter.
+If you have any feedback, please open an issue or @ me at [@khulnasoft](https://twitter.com/khulnasoft) on Twitter.
 
 ## Usage
 
